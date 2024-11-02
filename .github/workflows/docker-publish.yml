@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build --build-arg USER_ID=$(id -u) -t opencv-detect-faces .
+          docker build --build-arg USER_ID=$(id -u) -t postalhead/opencv-detect-faces .
 
       - name: Push Docker image
         run: |
