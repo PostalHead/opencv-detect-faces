@@ -25,4 +25,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker push opencv-detect-faces:latest
+          docker push postalhead/opencv-detect-faces:latest
