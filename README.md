@@ -1,7 +1,7 @@
 # opencv-detect-faces
 ## Building
 ```bash
-docker build --build-arg USER_ID=$(id -u) -t opencv-detect-faces .
+docker build --build-arg USER_ID=$(id -u) -t postalhead/opencv-detect-faces .
 ```
 ## Running
 ```bash
